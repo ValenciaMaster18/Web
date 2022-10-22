@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 15px;
+    font-family: Inter;
+}
+
+.contenedor{
+    height: 90vh;
+    margin: 2.5vh;
+}
+/* -------------------------------------------------------------- */
+main{
+    display: inline-block;
+    width: 75%;
+    height: 50vh;
+}
+/* ----------------------------------------------------------------- */
+.cont-header{
+    height: 10vh;
+    text-align: justify;
+
+}
+.cont-img{
+    display: inline-block;
+
+}
+.cont-menu{
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 53em;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 2.5em;
+}
+/* ------------------------------------------------------------------- */
+.cont-artic{
+    width: 100%;
+    height: 52.8vh;
+}
+.cont-img-main{
+    height: 70%;
+}
+.img-main{
+    width: 100%;
+    height: 100%;
+}
+/* --------------------------------------------------------------------- */
+.cont-section{
+    margin-top: 1em;
+    height: 30%;
+}
+/* --------------------------------------------------------------------- */
+.cont-title-main{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+
+}
+h1{
+    padding-top: 35px;
+    text-align: left;
+    font-size: 25px;
+}
+/* ----------------------------------------------------------------------- */
+.text-main{
+    text-align: left;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+span{
+    display: block;
+}
+/* ------------------------------------------------------------------------ */
+.btn{
+    margin-top: 1em;
+    background-color: hsl(5, 85%, 63%);
+    width: 10em;
+    height: 2em;
+    color: white;
+    border: 0;
+}
+/* ----------------------------------------------------- */
+.cont-aside{
+    background-color: hsl(240, 100%, 5%);
+    width: 20%;
+    height: 55vh;
+    float: right;
+}
+
+hr{
+    border: 0.01px solid hsl(36, 100%, 99%);
+}
+aside h1{
+    padding-top:0.5em;
+    padding-left: 0.5em;
+    padding-bottom: .5em; 
+    margin: 0;
+    color:hsl(35, 77%, 62%);
+}
+aside h2{
+    padding-top:0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em; 
+    color: white;
+}
+aside p{
+    padding-top:0.5em;
+    padding-left: 0.5em;
+    padding-bottom: .5em; 
+    color: hsl(36, 100%, 99%);
+}
+/* ------------------------------------------------------------------------------- */
+.cont-articulos{
+    height: 20vh;
+    margin-top: 10vh;
+}
+/* ----------------------------- */
+.con-art-1{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+.img-art{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+
+}
+.img-articulo{
+    width: 100%;
+    height: 100%;
+}
+.list-art{
+    list-style: none;
+}
+.cont-list-art{
+    width: 65%;
+    height: 100%;
+    padding-left: 1em;
+    float: right;
+}
+div ul li{
+    padding-bottom: 1em;
+}
+/* ----------------------- */
+.con-art-2{
+    width: 34%;
+    height: 100%;
+    float: right;
+}
+.con-art-3{
+    width: 33%;
+    height: 100%;
+    float: right;
+}
